@@ -232,6 +232,22 @@ span {
   font-size: 1.2rem;
 }
 
+.hideButton {
+  display: block;
+}
+
+.speakHide {
+  display: none !important;
+}
+
+#speakButton {
+  border: 2px solid #d3d3d3;
+  background-color: #fff;
+  padding: 20px 0;
+  margin: 10px auto;
+  width: 90%;
+}
+
 /* ========== desktop design ========== */
 @media (min-width: 768px) {
   /* ========== header ========== */
