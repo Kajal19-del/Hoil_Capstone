@@ -100,3 +100,32 @@ for (let i = 0; i < 2; i += 1) {
   </div>
   `;
 }
+
+speakers.innerHTML += `
+  <button id="speakButton" class="hideButton">MORE <i class="bi bi-caret-down-fill"></i></button>
+`;
+
+for (let i = 2; i < cards.length; i += 1) {
+  const card = cards[i];
+  speakers.innerHTML += `
+    <div class="speakHide guest">
+      <img class="guestImg" src="${card.image}" alt="${card.alt}">
+      <div>
+        <h2>${card.name}</h2>
+        <p class="guestTitle">${card.title}</p>
+        <p class="guestDescription">${card.description}</p>
+      </div>
+    </div>
+    `;
+}
+
+const speakHide = document.querySelectorAll('.speakHide');
+
+const speakButton = document.getElementById('speakButton');
+
+speakButton.addEventListener('click', () => {
+  speakHide.forEach((item) => {
+    item.classList.toggle('speakHide');
+  });
+  speakButton.style.display = 'none';
+});
