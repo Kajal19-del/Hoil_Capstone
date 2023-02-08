@@ -135,7 +135,7 @@ header {
   padding: 24px 10px;
 }
 
-.main h2 {
+.sub {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -188,6 +188,49 @@ span {
 }
 
 /* ========== feature section ========== */
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 0;
+}
+
+#speakers {
+  display: flex;
+  flex-direction: column !important;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.guest {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.guest div {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.guestImg {
+  width: 120px;
+  height: auto;
+}
+
+.guestTitle {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.guestDescription {
+  font-size: 1.2rem;
+}
 
 /* ========== desktop design ========== */
 @media (min-width: 768px) {
