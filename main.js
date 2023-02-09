@@ -111,7 +111,7 @@ for (let i = 2; i < cards.length; i += 1) {
     <div class="speakHide guest">
       <img class="guestImg" src="${card.image}" alt="${card.alt}">
       <div>
-        <h2>${card.name}</h2>
+        <h2 class="sub">${card.name}</h2>
         <p class="guestTitle">${card.title}</p>
         <p class="guestDescription">${card.description}</p>
       </div>

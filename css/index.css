@@ -96,7 +96,7 @@ header {
 }
 
 .subHeader {
-  background-image: url(/images/text-bg.png);
+  background-image: url(/images/2021.png);
   background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -159,6 +159,7 @@ header {
   border-bottom: 2px solid #ec5242;
   width: 50px;
   padding: 0 !important;
+  margin: 0 auto;
 }
 
 .icon {
@@ -214,7 +215,7 @@ span {
 .guest div {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .guestImg {
@@ -329,5 +330,4 @@ span {
     text-decoration: none;
     color: #272a31;
   }
-
 }
