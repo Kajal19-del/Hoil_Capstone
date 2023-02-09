@@ -364,7 +364,7 @@ span {
   .headerParagraph {
     width: 60%;
     text-align: left;
-    font-size: 1.8;
+    font-size: 1.8rem;
   }
 
   .headerDate {
@@ -375,12 +375,12 @@ span {
     font-size: 2.2rem;
   }
 
-   /* ========== main section ========== */
-   .main {
+  /* ========== main section ========== */
+  .main {
     padding: 60px 150px;
-   }
+  }
 
-   .mainDiv {
+  .mainDiv {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
   }
@@ -428,7 +428,7 @@ span {
   .speakHide {
     display: flex !important;
   }
-  
+
   .sponsor {
     padding: 40px 0;
   }

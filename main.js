@@ -65,7 +65,7 @@ const cards = [
     alt: 'person5',
     name: 'Ravi Sharma',
     title: 'President of Young Pirates of UP',
-    description: "Ravi Sharma is a professional who uses design elements such as typography, images, and color to create visual representations of ideas and messages.",
+    description: 'Ravi Sharma is a professional who uses design elements such as typography, images, and color to create visual representations of ideas and messages.',
   },
   {
     id: 6,
