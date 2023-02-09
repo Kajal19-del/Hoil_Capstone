@@ -200,7 +200,7 @@ span {
 #speakers {
   display: flex;
   flex-direction: column !important;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 30px;
 }
 
@@ -249,7 +249,7 @@ span {
   width: 90%;
 }
 
-/* ========== sponson section ========== */
+/* ========== sponsor section ========== */
 .sponsor {
   display: flex;
   flex-direction: column;
@@ -300,7 +300,7 @@ span {
   font-size: 1.6rem;
 }
 
-/* ========== desktop design ========== */
+/* ************************************** desktop design ************************************** */
 @media (min-width: 768px) {
   /* ========== header ========== */
   .nav-bar {
@@ -308,11 +308,17 @@ span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0 143px 0 143px;
   }
 
   .logo {
     width: 100px;
     height: 100px;
+  }
+
+  .logo:hover {
+    transform: scale(1.5);
+    cursor: pointer;
   }
 
   .hambug-menu {
@@ -328,6 +334,109 @@ span {
   .alinks {
     font-size: 1.6rem;
     text-decoration: none;
-    color: #272a31;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #344563;
+    padding: 10px 12px;
+  }
+
+  .borderLink {
+    border: 4px solid #ec5242;
+    padding: 5px;
+  }
+
+  .headContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 400px 100px 100px;
+  }
+
+  .headerTitle {
+    font-size: 4rem;
+  }
+
+  .subHeader {
+    font-size: 4.8rem;
+    font-weight: 900;
+  }
+
+  .headerParagraph {
+    width: 60%;
+    text-align: left;
+    font-size: 1.8;
+  }
+
+  .headerDate {
+    font-size: 4.2rem;
+  }
+
+  .headerLocation {
+    font-size: 2.2rem;
+  }
+
+   /* ========== main section ========== */
+   .main {
+    padding: 60px 150px;
+   }
+
+   .mainDiv {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  .mainDiv > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sub {
+    font-size: 2.8rem;
+  }
+
+  .mainButton {
+    display: none;
+  }
+
+  .mainP {
+    text-decoration: underline;
+    color: #fff;
+    padding-top: 40px;
+    font-size: 1.6rem;
+  }
+
+  /* ========== feature section ========== */
+  .feature {
+    padding: 60px 0;
+  }
+
+  #speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .guest {
+    /* flex-direction: row; */
+    width: 70%;
+  }
+
+  .hideButton {
+    display: none;
+  }
+
+  .speakHide {
+    display: flex !important;
+  }
+  
+  .sponsor {
+    padding: 40px 0;
+  }
+
+  .company {
+    gap: 50px;
+    padding: 30px 0;
   }
 }
