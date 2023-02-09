@@ -200,7 +200,6 @@ span {
 #speakers {
   display: flex;
   flex-direction: column !important;
-  /* flex-wrap: wrap; */
   gap: 30px;
 }
 
@@ -419,7 +418,6 @@ span {
   }
 
   .guest {
-    /* flex-direction: row; */
     width: 70%;
   }
 
