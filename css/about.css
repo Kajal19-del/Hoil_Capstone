@@ -25,7 +25,7 @@ html {
 }
 
 .aboutSubHeader {
-  background-image: url(./images/2021.png);
+  background-image: url(/images/2021.png);
   background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
