@@ -75,11 +75,11 @@ The goal of this project is to build a straightforward, responsive, HOLI event s
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://kajal19-del.github.io/Hoil_Capstone/)
 
 ## 🚀 Live Video <a name="live-video"></a>
 
-- [Live Video Link]()
+- [Live Video Link](https://www.loom.com/share/7788dcef37d24066a24481c5835921ab)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
