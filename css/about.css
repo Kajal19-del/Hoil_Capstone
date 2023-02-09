@@ -9,3 +9,156 @@
 html {
   font-size: 62.5%;
 }
+
+/* ========== header ========== */
+.aboutHeadContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 40px 10px;
+}
+
+.aboutHeaderTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.aboutSubHeader {
+  background-image: url(/images/2021.png);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center;
+  color: #ec5242;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.aboutHeaderParagraph {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border: 4px solid #fff;
+  padding: 16px 8px;
+  background-color: rgba(247, 247, 248, 0.3);
+}
+
+.aboutHeaderContact {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.aboutHeaderEmail {
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
+/* ========== logo section ========== */
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  gap: 20px;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.logoTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0 20px;
+}
+
+.logoText {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.logoImg {
+  height: 200px;
+  border: 2px solid #d3d3d3;
+  padding: 20px 40px;
+}
+
+.summit {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.summitTitle {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.summitPara {
+  text-align: center;
+  font-size: 14px;
+  padding: 0 25px;
+}
+
+.summitDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.div2022 {
+  background-image: url(../images/2022.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin: 0 20px;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2021 {
+  background-image: url(../images/2021.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0 20px;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.div2022 p,
+.div2021 p {
+  font-size: 1.6rem;
+}
+
+.div2022 h2,
+.div2021 h2 {
+  font-size: 2.5rem;
+}
+
+.aboutFooter {
+  background-color: #272a31;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 30px 0;
+}
+
+.aboutFooter div p {
+  padding-top: 10px;
+  font-size: 1.6rem;
+}
