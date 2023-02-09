@@ -29,7 +29,7 @@ menuItems.forEach(
 const cards = [
   {
     id: 1,
-    image: '/images/person1.jpg',
+    image: '../images/person1.jpg',
     alt: 'person1',
     name: 'Yash Chowdhury',
     title: 'Event organiser of Kolkata',
@@ -37,7 +37,7 @@ const cards = [
   },
   {
     id: 2,
-    image: '/images/person2.jpg',
+    image: '../images/person2.jpg',
     alt: 'person2',
     name: 'Anita Sharma',
     title: 'Director of Art Centre of Delhi',
@@ -45,7 +45,7 @@ const cards = [
   },
   {
     id: 3,
-    image: '/images/person3.jpg',
+    image: '../images/person3.jpg',
     alt: 'person3',
     name: 'Mukesh Shah',
     title: 'Executive Director of the Holi Event',
@@ -53,7 +53,7 @@ const cards = [
   },
   {
     id: 4,
-    image: '/images/person4.jpg',
+    image: '../images/person4.jpg',
     alt: 'dog4',
     name: 'Suresh Kumar',
     title: 'Content Creator at Instagram',
@@ -61,7 +61,7 @@ const cards = [
   },
   {
     id: 5,
-    image: '/images/person5.jpg',
+    image: '../images/person5.jpg',
     alt: 'person5',
     name: 'Ravi Sharma',
     title: 'President of Young Pirates of UP',
@@ -69,7 +69,7 @@ const cards = [
   },
   {
     id: 6,
-    image: '/images/child.jpg',
+    image: '../images/child.jpg',
     alt: 'child',
     name: 'Devanshu Shah',
     title: 'Party guests of Holi Events ',
