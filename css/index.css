@@ -81,7 +81,7 @@ html {
 }
 
 .headContent {
-  background-image: url('../images/bg-desktop.png');
+  background-image: url('../images/main3.png');
   background-size: cover;
   background-position: center;
   color: #272a31;
@@ -97,7 +97,7 @@ html {
 }
 
 .subHeader {
-  background-image: url(../images/text-bg.jpg);
+  background-image: url(../images/2021.png);
   background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
