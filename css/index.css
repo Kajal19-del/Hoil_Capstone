@@ -11,11 +11,8 @@ html {
 }
 
 /* ========== header ========== */
-header {
-  background-image: url('../images/main3.png');
-  background-size: cover;
-  background-position: center;
-  color: #272a31;
+.topbar {
+  display: none;
 }
 
 .nav-bar {
@@ -84,6 +81,10 @@ header {
 }
 
 .headContent {
+  background-image: url('../images/main3.png');
+  background-size: cover;
+  background-position: center;
+  color: #272a31;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -112,7 +113,7 @@ header {
   font-size: 1.5rem;
   border: 4px solid #fff;
   padding: 16px 8px;
-  background-color: rgba(247, 247, 248, 0.3);
+  background-color: rgba(247, 247, 248, 0.5);
 }
 
 .headerDate {
@@ -266,6 +267,7 @@ span {
   align-items: baseline;
   flex-wrap: wrap;
   gap: 25px;
+  padding: 10px;
 }
 
 .companyLogo {
@@ -302,6 +304,30 @@ span {
 /* ************************************** desktop design ************************************** */
 @media (min-width: 768px) {
   /* ========== header ========== */
+  .topbar {
+    display: block;
+  }
+
+  .topbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #2b2a2b;
+    padding-right: 30px;
+    gap: 16px;
+  }
+
+  .topbar ul li {
+    list-style: none;
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  .topbar ul li a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
   .nav-bar {
     display: flex;
     flex-direction: row;
@@ -357,11 +383,11 @@ span {
   }
 
   .headerTitle {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
 
   .subHeader {
-    font-size: 4.8rem;
+    font-size: 5rem;
     font-weight: 900;
   }
 
@@ -372,11 +398,11 @@ span {
   }
 
   .headerDate {
-    font-size: 4.2rem;
+    font-size: 3rem;
   }
 
   .headerLocation {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   /* ========== main section ========== */
