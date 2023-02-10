@@ -81,7 +81,7 @@ html {
 }
 
 .headContent {
-  background-image: url('../images/main3.png');
+  background-image: url('../images/bg-desktop.png');
   background-size: cover;
   background-position: center;
   color: #272a31;
@@ -97,7 +97,7 @@ html {
 }
 
 .subHeader {
-  background-image: url(../images/2021.png);
+  background-image: url(../images/text-bg.jpg);
   background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -113,7 +113,7 @@ html {
   font-size: 1.5rem;
   border: 4px solid #fff;
   padding: 16px 8px;
-  background-color: rgba(247, 247, 248, 0.5);
+  background-color: rgba(247, 247, 248, 0.8);
 }
 
 .headerDate {
@@ -313,13 +313,12 @@ span {
     flex-direction: row;
     justify-content: flex-end;
     background-color: #2b2a2b;
-    padding-right: 30px;
-    gap: 16px;
+    padding-right: 160px;
   }
 
   .topbar ul li {
     list-style: none;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding: 8px;
   }
 
